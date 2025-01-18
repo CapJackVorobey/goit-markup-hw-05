@@ -513,3 +513,12 @@ svg {
   max-height: 584px;
   overflow-y: auto;
 }
+
+.modal_text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
