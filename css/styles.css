@@ -526,4 +526,5 @@ svg {
 
 .banner_form {
   display: flex;
+  gap: 24px;
 }
