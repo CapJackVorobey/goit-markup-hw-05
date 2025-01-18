@@ -490,7 +490,7 @@ svg {
   background-color: #31d0aa;
 }
 
-.modal-overlay {
+.modal_overlay {
   position: fixed;
   top: 0;
   left: 0;
