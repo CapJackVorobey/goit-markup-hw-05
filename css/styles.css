@@ -490,7 +490,7 @@ svg {
   background-color: #31d0aa;
 }
 
-.modal_overlay {
+.banner_overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -503,7 +503,7 @@ svg {
   justify-content: center;
 }
 
-.modal_block {
+.banner_block {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background: #fcfcfc;
@@ -514,7 +514,7 @@ svg {
   overflow-y: auto;
 }
 
-.modal_text {
+.banner_text {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -524,6 +524,6 @@ svg {
   margin-bottom: 16px;
 }
 
-.modal_form {
+.banner_form {
   display: flex;
 }
