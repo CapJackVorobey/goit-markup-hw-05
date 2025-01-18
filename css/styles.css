@@ -520,5 +520,10 @@ svg {
   line-height: 150%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.modal_form {
+  display: flex;
 }
