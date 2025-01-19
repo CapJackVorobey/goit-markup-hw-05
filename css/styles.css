@@ -460,7 +460,6 @@ svg {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  min-width: 264px;
 }
 
 .bottom_container {
@@ -471,11 +470,13 @@ svg {
 .bottom_container_one {
   gap: 16px;
   margin-right: 120px;
+  min-width: 264px;
 }
 
 .bottom_container_two {
   gap: 16px;
   margin-right: 80px;
+  min-width: 208px;
 }
 
 .bottom_container_two_p {
@@ -497,6 +498,7 @@ svg {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  min-width: 453px;
 }
 
 .subscribe_block {
@@ -515,9 +517,10 @@ svg {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: start;
   color: #ffffff;
   margin-bottom: 16px;
+  width: 100%;
 }
 
 .subscribe_form {
