@@ -578,6 +578,7 @@ svg {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .banner_card {
   position: absolute;
   top: 50%;
@@ -663,4 +664,21 @@ svg {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form_piece_area:focus {
+  border-color: #4d5ae5;
+}
+
+.form_piece_symbol {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #2e2f42;
+}
+
+.btn_close:focus .form_piece_symbol {
+  fill: #4d5ae5;
 }
