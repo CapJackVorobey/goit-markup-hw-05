@@ -608,14 +608,22 @@ svg {
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn_close:hover,
 .btn_close:focus {
   background-color: #404bbf;
   border: none;
+}
+
+.btn_cross {
+  fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn_cross:hover,
+.btn_cross:focus {
   fill: #ffffff;
 }
 
