@@ -679,6 +679,6 @@ svg {
   fill: #2e2f42;
 }
 
-.btn_close:focus .form_piece_symbol {
+.form_piece_area:focus .form_piece_symbol {
   fill: #4d5ae5;
 }
