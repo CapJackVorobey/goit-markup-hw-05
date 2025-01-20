@@ -563,3 +563,21 @@ svg {
 .subscribe_tg {
   margin-left: 16px;
 }
+
+.banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(46, 47, 66, 0.4);
+}
+.banner_card {
+  background: #fcfcfc;
+}
+.btn_close {
+}
