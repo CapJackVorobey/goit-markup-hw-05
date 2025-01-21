@@ -727,4 +727,14 @@ svg {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+.check:checked .checkbox_comment_piece {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
