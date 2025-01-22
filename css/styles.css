@@ -679,8 +679,7 @@ svg {
   fill: #2e2f42;
 }
 
-.form_piece_area:focus .form_piece_symbol,
-.form_piece_area:hover .form_piece_symbol {
+.form_piece_area:focus-within + .form_piece_symbol {
   fill: #4d5ae5;
 }
 
