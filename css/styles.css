@@ -733,7 +733,7 @@ svg {
   margin-right: 8px;
 }
 
-.visually-hidden:checked + .checkbox_comment_piece {
+.check:checked + .checkbox_comment .checkbox_comment_piece {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
