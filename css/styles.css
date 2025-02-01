@@ -582,7 +582,7 @@ svg {
   pointer-events: none;
 }
 
-.banner .is-open {
+.banner.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
